@@ -1,0 +1,309 @@
+body {
+    background-image:url("https://escapod.us/wp-content/themes/escapod-2018-1-7-0/assets/images/topo-graphic-gray.png");
+    background-repeat: repeat;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #466995;
+    border-bottom: 1px solid #466995;
+    position: fixed;
+    height: 100px;
+    width: 100%; 
+    z-index: 50;
+    padding: 0 auto;
+    
+    
+  }
+    
+  header .logo{
+    color: black;
+    margin-left: 15px;
+    display: inline-block;
+    position: relative;
+  }
+  
+  h6{
+    color: wheat;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+  }
+  header .logo a{
+    color: wheat;
+  }
+
+  header ul{
+    width: 720px;
+    margin-left: 180px;
+    display: inline-block;
+    text-align: center;
+  }
+  footer{
+    height: 100px;
+  }
+  
+  ul {
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: right;
+  }
+  
+  li {
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  li:hover {
+    color: #DBE9EE;
+  }
+  
+  h1 {
+    color: #466995;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    color: #333;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 26px;
+    font-weight: 100;
+    margin: 0 auto 20px auto;
+  }
+  
+  h3 {
+    color: #466995;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+   
+  }
+  
+  h4 {
+    color: #466995;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase
+  }
+  
+  p {
+    color: #333;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+  }
+  
+  footer {
+    background-color: #DBE9EE;
+    text-align: center;
+    margin-top: 100px;
+    border-top: 3px dotted black; 
+  }
+  
+  .welcome {
+    background-color: #DBE9EE;
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 50px;
+  }
+  
+  .top-product {
+    background-color: #DBE9EE;
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    padding-top: 40px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 50px;   
+    
+  }
+  .top-client {
+    background-color: #DBE9EE;
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 50px;
+  }
+  .top-product li{
+    padding: 0 165px;
+    text-anchor: middle;
+    position: relative;
+    color: darkblue;
+
+  }
+  
+  .Product {
+    
+    text-align: center;
+    position: relative;
+    top: 40px;
+  }
+  
+  .map {
+    
+    display: inline-block;
+    border: 1px dotted #466995;
+    border-image-width: 10px;
+    width: 300;
+    
+  }
+  
+  .map:hover {
+    background: #C0D6DF;
+    color: #FFF;
+  }
+
+
+  #geol-product, 
+  #geop-product, 
+  #geoc-product {
+    
+    margin-left: 80px;
+    width: 1200px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    position: relative;
+    float: none;
+  }
+  
+  #geol-product li, 
+  #geop-product li, 
+  #geoc-product li{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: auto 90px;
+    width: 100px;
+    text-align: center;  
+    position: relative; 
+    
+  }
+
+  #geol-product footer,
+  #geop-product footer,
+  #geoc-product footer {
+    width: 100%;
+    height: 2px;
+    border: 1px solid aquamarine; 
+
+  }
+
+
+
+  #geol-product img,
+  #geop-product img,
+  #geoc-product img{
+    text-align: center;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    
+     
+  }
+
+  #geol-produ ul .pack-img{
+    text-align: center;
+    height: 50px;
+    widows: 50px;
+    position: relative;
+  }
+
+
+  .Package-1, .Package-2, .Package-3, ul{
+    text-align: center;
+  }
+
+  .client{
+    display: inline-block;
+    position: relative;
+    margin: 0 200px;
+  }
+ 
+  .table{
+    margin: 100px 100px 0 150px; 
+    table-layout: fixed;
+    text-align: center;
+    border: .5px dashed blue ;
+  }
+
+  thead th {
+    background: #88CCF1;
+    color: blue;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  tbody{
+    background: aquamarine;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+  }
+
+  td a {
+    color: maroon;
+  }
+
+  .profile img{
+    margin: 0 600px;
+    position: relative; 
+    height: 230px ;
+    width: 150px;
+    box-sizing: border-box;
+    border-radius: 30%;
+    text-align: center;
+    
+    
+  }
+
+  .profile h4 {
+    background-color: aliceblue;
+    background-position-x: center;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .profile p {
+    text-align: center;
+    text-transform: unset;
+    margin: none;
+  }
+
+  .profile picture{
+    margin-top: 10px;
+    float:left;
+    margin-left: 180px;
+    width: 100;
+    height: 100px;
+  }
